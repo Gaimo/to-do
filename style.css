@@ -1,0 +1,32 @@
+:root { --pico-font-size: 106%; }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding-block: .75rem .5rem;
+  background: var(--pico-background-color);
+}
+.sticky hgroup { margin-bottom: .5rem; }
+.sticky h1 { font-size: 1.5rem; margin-bottom: 0; }
+.sticky p { margin: 0; font-size: .9rem; }
+progress { margin: 0; height: .6rem; }
+
+main article { margin: .5rem 0 2rem; padding: 0; overflow: hidden; }
+#lista { list-style: none; margin: 0; padding: 0; }
+
+.item { border-top: 1px solid var(--pico-muted-border-color); }
+.item:first-child { border-top: 0; }
+.item label {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin: 0;
+  padding: .9rem 1rem;
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.item input[type="checkbox"] { margin: 0; flex: none; width: 1.6rem; height: 1.6rem; }
+.item .qtd { min-width: 2rem; font-weight: 700; color: var(--pico-primary); }
+.item.feito label { text-decoration: line-through; color: var(--pico-muted-color); }
+.item.feito .qtd { color: var(--pico-muted-color); }
