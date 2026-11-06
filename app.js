@@ -18,6 +18,7 @@
     [2, 'Caixa de ketchup'],
     [1, 'Billyjack'],
     [2, 'Papel acoplado'],
+    [4, 'Pacote de batata'],
   ];
 
   let feitos = new Set();
