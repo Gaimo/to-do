@@ -7,7 +7,7 @@
     [4, 'Caixa 25 (combo duplo)'],
     [1, 'H2'],
     [5, 'Pack 1L guaraná'],
-    [2, 'Pack 2L guaraná'],
+    [1, 'Pack 2L guaraná'],
     [1, 'Pack Coca-Cola lata'],
     [1, 'Pack Coca-Cola lata zero'],
     [3, 'Caixa de hambúrguer'],
