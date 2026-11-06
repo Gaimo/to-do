@@ -1,15 +1,15 @@
 (() => {
-  const KEY = 'lista-compras:v2';
+  const KEY = 'lista-compras:v3';
 
   // Ordem já agrupada por local de compra: combos, mercado/atacado, embalagens.
   const ITENS = [
-    [1, 'Caixa 35 (combo família)'],
-    [4, 'Caixa 25 (combo duplo)'],
-    [1, 'H2'],
     [5, 'Pack 1L guaraná'],
     [1, 'Pack 2L guaraná'],
     [1, 'Pack Coca-Cola lata'],
     [1, 'Pack Coca-Cola lata zero'],
+    [1, 'Caixa 35 (combo família)'],
+    [4, 'Caixa 25 (combo duplo)'],
+    [1, 'H2'],
     [3, 'Caixa de hambúrguer'],
     [1, 'Pacote de nugget'],
     [2, 'Pacote de bacon'],
