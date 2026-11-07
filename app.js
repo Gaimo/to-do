@@ -1,25 +1,25 @@
 (() => {
-  const KEY = 'lista-compras:v3';
+  const KEY = 'lista-compras:v4';
 
-  // Ordem já agrupada por local de compra: combos, mercado/atacado, embalagens.
+  // Ordem agrupada por categoria: bebidas, frios/congelados, pães e molhos, combos, embalagens.
   const ITENS = [
-    [5, 'Pack 1L guaraná'],
-    [1, 'Pack 2L guaraná'],
-    [1, 'Pack Coca-Cola lata'],
-    [1, 'Pack Coca-Cola lata zero'],
-    [1, 'Caixa 35 (combo família)'],
-    [4, 'Caixa 25 (combo duplo)'],
-    [1, 'H2'],
-    [3, 'Caixa de hambúrguer'],
-    [1, 'Pacote de nugget'],
-    [2, 'Pacote de bacon'],
+    [1, 'Pack de Guaravita'],
+    [6, 'Packs de guaraná 1L'],
+    [2, 'Packs de guaraná 2L'],
+    [1, 'Pack de Coca-Cola 2L'],
     [1, 'Peça de queijo cheddar'],
-    [7, 'Pacote de pão'],
-    [2, 'Caixa de ketchup'],
-    [1, 'Billyjack'],
-    [2, 'Papel acoplado'],
-    [4, 'Pacote de batata'],
-    [1, 'Kraft médio'],
+    [2, 'Peças de bacon'],
+    [3, 'Pacotes de nugget'],
+    [3, 'Pacotes de anéis de cebola'],
+    [5, 'Pacotes de batata'],
+    [5, 'Caixas de hambúrguer'],
+    [11, 'Pacotes de pão'],
+    [3, 'Caixas de ketchup'],
+    [1, 'Billy Jack'],
+    [1, 'Caixa de combo 35'],
+    [4, 'Caixas de combo 25'],
+    [2, 'Bobinas de cartão'],
+    [2, 'Fitas transparentes'],
   ];
 
   let feitos = new Set();
