@@ -1,12 +1,13 @@
 (() => {
-  const KEY = 'lista-compras:v5';
+  const KEY = 'lista-compras:v6';
 
   // Ordem agrupada por categoria: bebidas, frios/congelados, pães e molhos, combos, embalagens.
   const ITENS = [
     [3, 'Packs de guaraná 2L'],
     [7, 'Packs de guaraná 1L'],
     [1, 'Peça de queijo cheddar'],
-    [2, 'Peças de bacon'],
+    [1, 'Pacote de cheddar'],
+    [1, 'Pacote de catupiry'],
     [4, 'Pacotes de nugget'],
     [5, 'Pacotes de anéis de cebola'],
     [5, 'Pacotes de batata'],
