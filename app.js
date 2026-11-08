@@ -1,25 +1,21 @@
 (() => {
-  const KEY = 'lista-compras:v4';
+  const KEY = 'lista-compras:v5';
 
   // Ordem agrupada por categoria: bebidas, frios/congelados, pães e molhos, combos, embalagens.
   const ITENS = [
-    [1, 'Pack de Guaravita'],
-    [6, 'Packs de guaraná 1L'],
-    [2, 'Packs de guaraná 2L'],
-    [1, 'Pack de Coca-Cola 2L'],
+    [3, 'Packs de guaraná 2L'],
+    [7, 'Packs de guaraná 1L'],
     [1, 'Peça de queijo cheddar'],
     [2, 'Peças de bacon'],
-    [3, 'Pacotes de nugget'],
-    [3, 'Pacotes de anéis de cebola'],
+    [4, 'Pacotes de nugget'],
+    [5, 'Pacotes de anéis de cebola'],
     [5, 'Pacotes de batata'],
     [5, 'Caixas de hambúrguer'],
     [11, 'Pacotes de pão'],
-    [3, 'Caixas de ketchup'],
-    [1, 'Billy Jack'],
+    [2, 'Caixas de ketchup'],
+    [1, 'Caixa de combo 30'],
     [1, 'Caixa de combo 35'],
     [4, 'Caixas de combo 25'],
-    [2, 'Bobinas de cartão'],
-    [2, 'Fitas transparentes'],
   ];
 
   let feitos = new Set();
